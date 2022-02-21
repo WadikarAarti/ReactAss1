@@ -1,0 +1,63 @@
+select#productid{
+  width: 300px;
+  border-radius: 10px;
+}
+select#weekid{
+  width: 300px;
+  border-radius: 10px;
+}
+input#quantityid{
+  width: 300px;
+  border-radius: 10px;
+  /* border:2px solid red; */
+}
+button#add{
+  margin-left: 200px;
+  border-radius: 10px;
+  width: 100px;
+}
+nav#navbar{
+  background-color: #80b0d3;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #80b0d3;
+  color: white;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #991010;
+  text-align: left;
+  padding: 4px;
+  font-size: 20px;
+}
+
+th {
+  background-color: rgb(117, 201, 250);
+}
+
+td {
+  background-color: rgb(205, 235, 253);
+}
+
+form {
+  display: flex;
+  gap: 2px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
